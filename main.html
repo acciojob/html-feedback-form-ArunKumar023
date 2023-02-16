@@ -7,29 +7,24 @@
 </head>
 
 <body>
-	  <form  method="POST">
-  <h2>Feedback Form</h2>
+	<form  method="post">
+	  <h2>Feedback Form</h2>
   
-  <label for="name">Name:</label>
-  <input type="text" id="name" minlength="3" maxlength="50" required>
+	  <label for="name">Name:</label>
+	  <input type="text" id="name" minlength="3" maxlength="50" required>
 
-  <label for="portfolio">Portfolio:</label>
-  <input type="url" id="portfolio" required>
+	  <label for="portfolio">Portfolio:</label>
+	  <input type="url" id="portfolio" required>
 
-  <label for="favColor">Favorite Color:</label>
-  <select id="favColor" >
-    <option value="red">Red</option>
-    <option value="blue">Blue</option>
-    <option value="green">Green</option>
-    <option value="yellow">Yellow</option>
-    <option value="purple">Purple</option>
-  </select>
-
-  <label for="likeness">How much do you like your favorite color?</label>
-  <input type="range" id="likeness"  min="1" max="100" required>
+	  <label for="favColor">Favorite Color:</label>
+		<input value="color" type="color" id="favColor" >
+	 
+	
+	  <label for="likeness">How much do you like your favorite color?</label>
+	  <input type="range" id="likeness"  min="1" max="100" required>
   
-  <button type="submit">Submit Feedback</button>
-</form>
+	  <button type="submit">Submit Feedback</button>
+	</form>
 
 
 	
